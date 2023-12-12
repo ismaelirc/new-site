@@ -60,7 +60,13 @@ body{
 
 .secondary{
     align-items: center;
+    transition: transform .2s;
 }
+
+.secondary:hover {
+    transform: translate(0, -1rem);
+}
+
 
 .container__desc{
     padding-right: 6%;
@@ -83,5 +89,5 @@ body{
 }
 
 .footer_page__icon{
-    width: 26%;
+    width: 30px;
 }
