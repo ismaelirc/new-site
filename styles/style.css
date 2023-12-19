@@ -49,7 +49,7 @@ body{
 .container__image{
     border-radius: 30px;
     margin-left: 3rem;
-    width: 80%;
+    max-width: 80%;
 }
 
 .container__post_desc{
