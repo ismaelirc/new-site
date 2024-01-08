@@ -11,10 +11,16 @@
     
     --dark-blue: #041833;
     --white: #ffffff;
+    --black: #000000;
 }
 
 body{
     font-family: var(--fonte-principal);    
+}
+
+a{
+    text-decoration: none;
+    color: var(--black)
 }
 
 .header_page{
