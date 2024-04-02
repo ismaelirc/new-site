@@ -107,3 +107,18 @@ a{
 .footer_page__icon{
     width: 30px;
 }
+
+@media screen and (max-width:768px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 7%;
+    }
+
+    .container__image{
+        border-radius: 30px;
+        margin-left: 3rem;
+        max-width: 50%;
+    }
+}
