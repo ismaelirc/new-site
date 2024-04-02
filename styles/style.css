@@ -78,6 +78,16 @@ a{
     padding-right: 6%;
 }
 
+.container__link_repositorio{
+    text-align: end;
+}
+
+.container__link_repositorio a{
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .container__subtitle{
     text-align: end;
 }
